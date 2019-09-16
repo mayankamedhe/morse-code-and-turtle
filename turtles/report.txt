@@ -1,0 +1,11 @@
+The program uses tokens to get all the arguments.
+It makes child processes using fork for every command and preforms the command using execvp()
+
+The functions it can implement is -
+cd
+pwd
+mkdir
+ls
+echo
+sleep
+cat etc

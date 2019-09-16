@@ -1,0 +1,5 @@
+Case 1) Grandchild exits before child-
+	Grandchild exits successfully. But it is struck infinitely waiting for child to complete
+
+Case 2) Child exits before grandchild-
+	The child is exiting successfully making the grandchild orphan.

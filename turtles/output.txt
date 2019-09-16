@@ -1,0 +1,38 @@
+turtle>mkdir test
+
+turtle>ls
+output.txt  report.txt	test  turtle  turtle.c
+
+turtle>cd test
+
+turtle>pwd
+/home/mayankaa/Documents/160050027_lab3/turtles/test
+
+turtle>cd ..
+
+turtle>pwd
+/home/mayankaa/Documents/160050027_lab3/turtles
+
+turtle>cd
+Wrong number of arguments
+
+turtle>rm test
+rm: cannot remove 'test': Is a directory
+
+turtle>rmdir test
+
+turtle>ls
+output.txt  report.txt	turtle	turtle.c
+
+turtle>sleep 5
+
+turtle>echo "Hello"
+"Hello"
+
+turtle>echo "Hello" > hello.txt
+
+turtle>ls
+hello.txt  output.txt  report.txt  turtle  turtle.c
+
+turtle>cat hello.txt
+"Hello"
